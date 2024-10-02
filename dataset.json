@@ -1,0 +1,170 @@
+{
+    "intents": [
+      {
+        "tag": "wifi_troubleshooting",
+        "patterns": [
+          "Why can't I connect to Wi-Fi?",
+          "How do I fix Wi-Fi connection issues?",
+          "My Wi-Fi is not working",
+          "Why is my Wi-Fi connection unstable?",
+          "How do I reconnect to Wi-Fi after losing connection?"
+        ],
+        "responses": [
+          "Make sure Wi-Fi is turned on. Go to Settings > Network & Internet > Wi-Fi, then ensure it's enabled. Restart your modem and router if needed.",
+          "Try restarting your router and device. If that doesn't work, update the network adapter driver through Device Manager.",
+          "Run the Network Troubleshooter by going to Start > Settings > Network & Internet > Status, and select Network Troubleshooter."
+        ]
+      },
+      {
+        "tag": "slow_internet_speed",
+        "patterns": [
+          "Why is my internet so slow?",
+          "How do I increase my internet speed?",
+          "My internet is sluggish, what can I do?",
+          "Slow internet connection issues",
+          "How do I improve internet performance?"
+        ],
+        "responses": [
+          "Ensure no other devices are consuming too much bandwidth. Also, check for physical obstructions between your device and the Wi-Fi router.",
+          "Restart your router and modem. If possible, move closer to the router or switch to a wired Ethernet connection.",
+          "Check for spyware or viruses on your device, which may be slowing down your internet connection. Run a virus scan and remove any malware."
+        ]
+      },
+      {
+        "tag": "ethernet_issues",
+        "patterns": [
+          "Ethernet not working",
+          "Why can't I connect through Ethernet?",
+          "How do I fix Ethernet connection problems?",
+          "Ethernet connection is unstable",
+          "Why did my Ethernet connection drop?"
+        ],
+        "responses": [
+          "Ensure the Ethernet cable is properly connected to both your PC and the router. Try switching to a different cable if possible.",
+          "Go to Device Manager, find the Ethernet adapter, and uninstall the driver. Then restart your PC, and Windows will reinstall the driver automatically.",
+          "If the Ethernet connection stopped working after an update, you can roll back the update by going to Settings > Windows Update > Update History."
+        ]
+      },
+      {
+        "tag": "network_reset",
+        "patterns": [
+          "How do I reset my network settings?",
+          "Reset network settings in Windows",
+          "I need to reset my network configuration",
+          "Network reset not working",
+          "How do I fix network reset issues?"
+        ],
+        "responses": [
+          "To reset network settings, go to Settings > Network & Internet > Advanced Network Settings > Network Reset. This will remove all network adapters and reinstall them.",
+          "After a network reset, you'll need to reconnect to your Wi-Fi network and reconfigure any VPNs or custom network settings.",
+          "Network reset can help solve problems after an upgrade or when you can't connect to shared drives."
+        ]
+      },
+      {
+        "tag": "connectivity_on_surface",
+        "patterns": [
+          "Surface can't connect to Wi-Fi",
+          "Why is my Surface not connecting?",
+          "Wi-Fi issues on Surface",
+          "Surface Wi-Fi problems",
+          "How do I fix Wi-Fi on my Surface?"
+        ],
+        "responses": [
+          "Turn on and off Airplane mode on your Surface, then check if Wi-Fi is working. If not, force a restart by holding the power button for 20 seconds.",
+          "Check if the Wi-Fi adapter is visible in Device Manager. If it's missing, reinstall the driver or perform a network reset.",
+          "Try running the Windows Network Troubleshooter, restarting your network equipment, or checking if there are any updates available for your Surface."
+        ]
+      },
+      {
+        "tag": "wifi_signal_strength",
+        "patterns": [
+          "Why is my Wi-Fi signal weak?",
+          "How can I improve Wi-Fi signal strength?",
+          "Weak Wi-Fi connection at home",
+          "My Wi-Fi drops when I'm far from the router",
+          "What causes weak Wi-Fi signals?"
+        ],
+        "responses": [
+          "Move closer to the Wi-Fi router or remove any obstructions between your device and the router. Ensure your router is placed in a central location for better coverage.",
+          "Try switching to the 5 GHz frequency if your router supports it for better speed and less interference.",
+          "Consider upgrading your router or using a Wi-Fi extender to boost the signal strength in different areas of your home."
+        ]
+      },
+      {
+        "tag": "router_reset",
+        "patterns": [
+          "How do I reset my router?",
+          "Router reset instructions",
+          "Why should I reset my router?",
+          "Will resetting my router fix connection issues?",
+          "How do I restart my modem and router?"
+        ],
+        "responses": [
+          "To reset your router, unplug it from the power source, wait 30 seconds, then plug it back in. Allow a few minutes for the connection to reestablish.",
+          "Restarting your modem and router can refresh the connection to your internet service provider (ISP) and resolve network issues.",
+          "Resetting your router restores it to its default settings, which may resolve connection problems caused by incorrect configurations."
+        ]
+      },
+      {
+        "tag": "vpn_connection_issues",
+        "patterns": [
+          "Why can't I connect to my VPN?",
+          "VPN not working on Windows",
+          "How do I fix VPN connection issues?",
+          "VPN connection is slow",
+          "VPN keeps disconnecting"
+        ],
+        "responses": [
+          "Ensure that your VPN client is up-to-date and configured correctly. Try restarting your VPN client and reconnecting to the server.",
+          "Check if your internet connection is stable before connecting to the VPN. VPN performance depends on your base connection speed.",
+          "Try switching to a different VPN server or protocol to see if that resolves the connection issue."
+        ]
+      },
+      {
+        "tag": "firewall_blocking_connection",
+        "patterns": [
+          "Why is my firewall blocking the connection?",
+          "How do I fix firewall blocking issues?",
+          "My firewall is causing network problems",
+          "Firewall settings prevent me from connecting",
+          "How do I configure my firewall for network access?"
+        ],
+        "responses": [
+          "Go to Windows Security > Firewall & network protection and ensure that your firewall is configured to allow network traffic.",
+          "Add an exception for your network in the firewall settings, or temporarily disable the firewall to see if it's the cause of the issue.",
+          "Check if any recent updates changed your firewall rules and restore them to the previous settings."
+        ]
+      },
+      {
+        "tag": "modem_issues",
+        "patterns": [
+          "Why is my modem not working?",
+          "How do I troubleshoot modem problems?",
+          "My modem is not connecting to the internet",
+          "Modem issues in Windows",
+          "How to reset a modem?"
+        ],
+        "responses": [
+          "Make sure the modem is properly connected to the power source and that all cables are securely plugged in.",
+          "Restart your modem by unplugging it from the power source, waiting for 30 seconds, then plugging it back in.",
+          "If your modem has a battery backup, remove and reinsert the battery to perform a full reset."
+        ]
+      },
+      {
+        "tag": "vpn_configuration",
+        "patterns": [
+          "How do I configure a VPN?",
+          "Setting up a VPN on Windows",
+          "How to configure VPN settings",
+          "VPN configuration for remote work",
+          "How do I set up a VPN connection?"
+        ],
+        "responses": [
+          "Go to Settings > Network & Internet > VPN to add a new VPN connection. Enter the VPN server address, connection name, and login details provided by your VPN service.",
+          "Ensure your VPN is set to use the correct VPN protocol (e.g., OpenVPN, L2TP) based on your network configuration.",
+          "Consult your VPN provider's documentation for specific setup instructions and connection options."
+        ]
+      }
+    ]
+  }
+  
